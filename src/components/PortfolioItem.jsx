@@ -3,8 +3,9 @@ import React from "react";
 {/* passing parameters from portfolio.js */}
 function PortfolioItem({title, imgUrl, imtAlt, stack, link}) {
     return (
-        <div>
+        <div className="border-2 border-stone-900 rounded-md overflow-hidden">
 
+            {/* image */}
             <img
                 src={imgUrl}
                 alt={imtAlt}
@@ -12,11 +13,19 @@ function PortfolioItem({title, imgUrl, imtAlt, stack, link}) {
             />
 
             <div className="w-full p-4">
-                <h3>{title}</h3>
-                <p>
+
+                {/* title */}
+                <h3
+                    className="text-lg md:text-xl mb-2 md:mb-3 font-semibold"
+                >
+                    {title}
+                </h3>
+
+                {/* related technologies */}
+                <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
                     {/* iterate through the stack array */}
                     {stack.map(item => (
-                        <span>
+                        <span className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 rounded-md">
                             {item}
                         </span>
                     ))}
