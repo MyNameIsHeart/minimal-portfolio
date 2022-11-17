@@ -3,12 +3,12 @@ import React from "react";
 {/* passing parameters from timeline.js */}
 function TimelineItem({title, date, details}) {
     return (
-        <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
+        <ol className="flex flex-col md:flex-row relative border-l border-stone-400">
             <li className="mb-10 ml-4">
             
                 {/* bullets */}
                 <div
-                    className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white"
+                    className="absolute w-3 h-3 bg-stone-400 rounded-full mt-1.5 -left-1.5 border border-white"
                 />
                 
                 {/* style for date, title and details */}
