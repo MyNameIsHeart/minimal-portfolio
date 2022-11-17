@@ -1,7 +1,7 @@
 import React from "react";
 
 {/* passing parameters from timeline.js */}
-function TimelineItem({title, date, details}) {
+function TimelineItem({date, title, place_of_employment, details}) {
     return (
         <ol className="flex flex-col md:flex-row relative border-l border-stone-400">
             <li className="mb-10 ml-4">
@@ -27,7 +27,7 @@ function TimelineItem({title, date, details}) {
                     <h3 
                         className="text-lg font-semibold text-stone-900"
                     >
-                        {title}
+                        {title} @ {place_of_employment}
                     </h3>
 
                     {/* details */}

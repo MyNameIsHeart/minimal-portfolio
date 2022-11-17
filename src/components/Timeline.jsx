@@ -13,6 +13,7 @@ function Timeline() {
                     <TimelineItem
                         date={item.date}
                         title={item.title}
+                        place_of_employment={item.place_of_employment}
                         details={item.details}
                     />
                 ))}
