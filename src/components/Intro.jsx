@@ -26,7 +26,7 @@ function Intro() {
             >
                 Self learner, persistent and accurate, “can do” approach, a team player.<br />
                 Looking for a role where I can work as part of a team towards a meaningful goal.<br />
-                I'm Always in pursuit of meaning, intriguing challenges, and interesting things to learn.
+                I'm always in pursuit of meaning, intriguing challenges, and interesting things to learn.
             </p> {/* bio */}
 
         </div>
