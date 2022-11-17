@@ -10,6 +10,7 @@ export default[
     {
         title: 'Minimal Portfolio',
         imgUrl: '', // to be added later
+        imtAlt: 'Minimal_Portfolio_Image',
         stack: ['React', 'Tailwind', 'Vite'], // related technologies
         link: '', // add github link when finished
     }
