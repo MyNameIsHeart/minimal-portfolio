@@ -1,4 +1,5 @@
 export default [
+    // each object is a timeframe activity
     {
         date: 'Dec 2021 - Present',
         title: 'Software Developer Intern',

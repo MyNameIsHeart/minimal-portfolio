@@ -10,9 +10,9 @@ function Portfolio() {
                 {/* iterate through portfolio */}
                 {portfolio.map(project => (
                     <PortfolioItem
-                        title={project.title}
                         imgUrl={project.imgUrl}
                         imtAlt={project.imtAlt}
+                        title={project.title}
                         stack={project.stack}
                         link={project.link}
                     />

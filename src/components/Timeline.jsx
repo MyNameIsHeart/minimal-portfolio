@@ -6,7 +6,7 @@ function Timeline() {
     return (
         <div className="flex flex-col md:flex-row justify-center my-20">
             <div className="w-full md:w-7/12">
-                {/* iterate through portfolio */}
+                {/* iterate through timeline */}
                 {timeline.map(item => (
                     <TimelineItem
                         date={item.date}
