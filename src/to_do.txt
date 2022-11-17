@@ -1,1 +1,3 @@
-# add lg to Intro.jsx
+# add 'lg' styling to Intro.jsx
+# add images to portfolio (portfolio.js)
+# add github link to Minimal Portfolio at portfolio.js
