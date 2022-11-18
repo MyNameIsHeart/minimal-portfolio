@@ -14,7 +14,7 @@ function PortfolioItem({title, imgUrl, imtAlt, stack, link}) {
             <img
                 src={imgUrl}
                 alt={imtAlt}
-                className="w-full h-36 md:h-48 object-cover cursor-pointer"
+                className="w-full h-36 md:h-48 lg:h-60 object-cover cursor-pointer"
             />
 
             <div className="w-full p-4">

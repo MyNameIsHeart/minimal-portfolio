@@ -1,3 +1,1 @@
-# add 'lg' styling to Intro.jsx
-# add github link to Minimal Portfolio at portfolio.js
 # verify that the form works

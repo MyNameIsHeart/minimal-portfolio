@@ -17,7 +17,7 @@ function Contact() {
                         type="text"
                         name="name"
                         placeholder="Name"
-                        className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                        className="p-2 bg-transparent border-2 border-stone-400 dark:border-stone-500 placeholder-stone-500 dark:placeholder-stone-400 rounded-md focus:outline-none"
                     />
 
                     {/* Email field */}
@@ -25,7 +25,7 @@ function Contact() {
                         type="text"
                         name="email"
                         placeholder="Email"
-                        className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+                        className="my-2 p-2 bg-transparent border-2 border-stone-400 dark:border-stone-500 placeholder-stone-500 dark:placeholder-stone-400 rounded-md focus:outline-none"
                     />
 
                     {/* Message field */}
@@ -33,7 +33,7 @@ function Contact() {
                         name="message"
                         placeholder="Message"
                         rows="10"
-                        className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
+                        className="p-2 mb-4 bg-transparent border-2 border-stone-400 dark:border-stone-500 placeholder-stone-500 dark:placeholder-stone-400 rounded-md focus:outline-none"
                     />
 
                     {/* colourful button */}
