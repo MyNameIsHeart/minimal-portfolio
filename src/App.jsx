@@ -5,6 +5,13 @@ import Intro from "./components/Intro"
 import Portfolio from "./components/Portfolio"
 import Timeline from "./components/Timeline"
 
+{
+	/*
+	with thanks to ForrestKnight's tutorial
+		https://youtu.be/b0pkpcD8Ms4
+	*/
+}
+
 function App() {
   const [theme, setTheme] = useState(null);
 
