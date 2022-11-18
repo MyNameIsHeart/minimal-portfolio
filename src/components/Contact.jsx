@@ -38,8 +38,8 @@ function Contact() {
 
                     {/* colourful button */}
                     <button
-                        type="button"
-                        className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md dark:from-blue-500 dark:to-green-500 hover:stroke-white"
+                        type="submit"
+                        className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md dark:from-blue-500 dark:to-green-500"
                     >
                         Contact Me
                     </button>
