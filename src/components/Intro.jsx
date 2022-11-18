@@ -10,19 +10,19 @@ function Intro() {
         <div className="flex items-center justify-center flex-col text-center pt-20 pb-6"> {/* intro styling */}
             
             <h1
-                className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold"
+                className="text-4xl md:text-7xl lg:text-8xl dark:text-white mb-1 md:mb-3 lg:mb-6 font-bold"
             >
                 Noam L.
             </h1> {/* name */}
 
             <p
-                className="text-base md:text-xl mb-3 font-medium"
+                className="text-base md:text-xl lg:text-2xl mb-3 lg:mb-6 font-medium"
             >
                 Software Developer Intern & Computer Science Student
             </p> {/* job title */}
             
             <p
-                className="text-sm max-w-xl mb-6 font-bold"
+                className="text-sm lg:text-lg max-w-4xl mb-6 lg:mb-8 font-bold"
             >
                 Self learner, persistent and accurate, “can do” approach, a team player.<br />
                 Looking for a role where I can work as part of a team towards a meaningful goal.<br />

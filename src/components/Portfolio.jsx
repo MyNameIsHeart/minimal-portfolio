@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <div className="flex flex-col md:flex-row items-center justify-center">
             {/* grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
                 {/* iterate through portfolio */}
                 {portfolio.map(project => (
                     <PortfolioItem

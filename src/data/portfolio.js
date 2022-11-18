@@ -12,6 +12,6 @@ export default[
         imtAlt: 'Minimal_Portfolio_Image',
         title: 'Minimal Portfolio',
         stack: ['React', 'Tailwind', 'Vite'], // related technologies
-        link: '' // add github link when finished
+        link: 'https://github.com/MyNameIsHeart/minimal-portfolio'
     }
 ]
