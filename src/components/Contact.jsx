@@ -9,7 +9,7 @@ function Contact() {
                 <form
                     action="https://getform.io/f/6f37f543-f054-4fc8-ae9c-2a1b5e5594fb"
                     method="POST"
-                    className="flex flex-col w-full md:w-7/12"
+                    className="flex flex-col w-full md:w-7/12 lg:w-8/12"
                 >
                     <Title>Contact</Title>
                     {/* Name field */}
