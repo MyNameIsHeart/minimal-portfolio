@@ -12,21 +12,21 @@ function Intro() {
             <h1
                 className="text-4xl md:text-7xl lg:text-8xl dark:text-white mb-1 md:mb-3 lg:mb-6 font-bold"
             >
-                Noam L.
+                Noam Lev
             </h1> {/* name */}
 
             <p
                 className="text-base md:text-xl lg:text-2xl mb-3 lg:mb-6 font-medium"
             >
-                Software Developer Intern & Computer Science Student
+                Software Developer at Check Point
             </p> {/* job title */}
             
             <p
                 className="text-sm lg:text-lg max-w-4xl mb-6 lg:mb-8 font-bold"
             >
-                Self learner, persistent and accurate, “can do” approach, a team player.<br />
-                Looking for a role where I can work as part of a team towards a meaningful goal.<br />
-                I'm always in pursuit of meaning, intriguing challenges, and interesting things to learn.
+                I’m a software developer (intern) at Check Point with an interest in cyber security.<br />
+                I am looking for my next entry role where I can expand my knowledge and contend with more<br />complex research and development challenges.
+
             </p> {/* bio */}
 
         </div>
