@@ -14,7 +14,7 @@ export default [
         institution: 'Check Point',
         program: 'Internship',
         details:
-            "As a software developer (intern) at Check Point, I\n\n\t• Debugged firewall source code\n\t• Performed CI\\CD operations\n\t• Developed and enhanced internal tools (for version management and automation)\n\t• Mentored new employees and managed our team's information pages"
+            "As a software developer (intern) at Check Point, I\n\n\t• Debugged firewall source code and solved both simple bugs and complex issues.\n\t• Performed CI\\CD operations integrating critical bug-fixes to differnt product areas.\n\t• Developed and enhanced internal tools (for version management and automation).\n\t• Was in charge of our team's information page; wrote more than 26 inside articles.\n\t• Was in charge of mentoring new employees joining our team."
     },
     {
         time_frame: 'Future Employment',
