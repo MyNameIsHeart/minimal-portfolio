@@ -1,7 +1,7 @@
 export default [
     // each object is a timeframe activity
     {
-        time_frame: '2018 - 2021',
+        time_frame: null,
         title: 'Student',
         place_of_employment: 'The Open University of Israel',
         details:

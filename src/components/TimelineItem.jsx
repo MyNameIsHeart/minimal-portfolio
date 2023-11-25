@@ -17,11 +17,12 @@ function TimelineItem({time_frame, title, place_of_employment, details}) {
                 >
                 
                     {/* time_frame */}
+                    {time_frame && 
                     <span 
                         className="inline-block px-2 py-1 font-semibold text-white dark:text-stone-900 bg-stone-900 dark:bg-white text-base rounded-md"
                     >
                         {time_frame}
-                    </span>
+                    </span>}
                     
                     {/* title */}
                     <h3 
